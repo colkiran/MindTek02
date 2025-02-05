@@ -1,0 +1,196 @@
+Python
+------
+
+python was found by Guido Van Russum
+
+Python is open source
+
+Python
+------
+Desktop App 	-	TK 
+Web App		- 	MVC, REST API, Flask, Django, FAST
+Mobile		-	Kivy
+
+Testing		-	Unit, Pytest, Selenium, Robo Framework
+Automation	-	paramiko
+
+DataScience 	- 	Numpy, Pandas, Matplotlib, Seaborn, Pyplot
+
+ML, AI, Deep Learning - 
+
+Data Engineering - ETL  (spark, Bigdata)
+
+Python versions
+---------------
+2.x and 3.x 
+
+2.x
+----
+print "hello world"
+
+3.x
+---
+print("hello world")
+
+3.13
+----
+A new and improved interactive interpreter, based on PyPy's, featuring multi-line editing and color support, as well as colorized exception tracebacks. An experimental free-threaded build mode, which disables the Global Interpreter Lock, allowing threads to run more concurrently
+
+
+Flavours of Python
+------------------
+CPython - Currently using
+
+Jython  - Convert python code to Java code
+
+Iron Python - use to interact with dotnet Libraries
+
+
+IDE
+---
+IDLE - create files
+
+PyCharm CE - 
+VScode CE 
+
+Eclipse - addon
+sublime text
+
+Jupyter Notebook
+Spyder
+
+google colabs
+
+Notepad
+Notepad++
+
+Python
+------
+Python SDK - used to execute your python code
+
+shell - interactive environment
+
+IDLE - GUI
+
+two operators that are overloaded by default
+--------------------------------------------
++ = can be used to
+      1. add numbers
+      2. concatenate strings
+
+* = can be used to
+      1. multiply numbers
+      2. print a string n number of times
+
+
+Primary Data type in python
+---------------------------
+1. Stings
+2. Numbers
+   a. integer
+   b. long (deprecated)
+   c. float
+   d. complex
+3. Boolean
+
+long
+----
+
+2.x
+---
+823492384098234023843453405L
+82987123123L
+7682931456L
+
+3.x
+---
+9348502218687172372836
+28370945345
+0937485093823042323
+
+Virtual Environment
+-------------------
+
+
+Coding Rules
+------------
+#!  = shebang - used to specify the path of Python executables
+
+Line termination is your return key (enter key)
+
+Comments
+--------
+# - is used to create comments in python
+
+strings are enclosed in " " or  ' '
+
+"hello world"
+'hello world'
+
+multiple line strings
+
+"""
+this is the first line
+this is the second line
+this is the third line
+"""
+
+'''
+this is the first line
+this is the second line
+this is the third line
+'''
+
+in python we don't depend on parenthesis '( { ['
+
+we use indentation to write a block of code
+
+def fun():
+    print("hello world")
+    
+    for i in range(1, 21):
+	 print("xyz")
+	 if (i % 2 == 0):
+              print(i)
+
+    print("abc")
+
+fun()
+
+Python is case sensitive
+
+a != A
+
+count != Count
+
+Primitive Data types
+--------------------
+1. Numbers
+   a. integers
+   b. float
+   c. complex
+
+
+2. Strings
+
+
+Operators
+---------
+1. arithmetic ->  +, -, *, /, //, %
+2. augmenter  ->  +=, -=, /=
+3. comparison ->  ==, >, <, >=, <=, !=
+4. logical    ->  and, or, not 
+5. bitwise    ->  |, &, ^, >>, <<
+6. ternary    ->  if condition in a single line
+
+
+
+
+
+
+
+
+
+
+
+
