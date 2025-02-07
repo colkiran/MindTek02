@@ -1,0 +1,183 @@
+Loops and Control Structures
+----------------------------
+
+Control Structures
+------------------
+1. if condition
+
+2. select case  (will not support)
+
+if (condition):	   # condition - returns a T / F
+   statement - 1   - True
+else:
+   statement - 2   - False
+
+a = -1
+
+if (a > 0):
+   print(f"a is a positive number :{a}")
+else:
+   print(f"a is not a positive number :{a}")
+
+
+
+to accept data from the user:
+
+string_data = input()
+
+name = input("Enter your name :")
+
+age = int(input("Enter your age :"))
+
+
+Loops
+-----
+1. for loop
+2. while loop
+
+for loop
+--------
+generate numbers from 1 to 10 increment by 1
+1, 2, 3, 4, 5, 6, 7, 8, 9, 10
+
+generate numbers from 1 to 10 increment by 2
+1, 3, 5, 7, 9
+
+generate numbers from 1 to 10 increment by 3
+1, 4, 7, 10
+
+for i in range(1, 10):   # 1 - 9
+    print(i)
+
+1. continue	- skip the current iteration
+2. break	- terminate the iteration
+3. else
+
+
+print
+-----
+print(data, sep=, end="\n")
+
+print("hello", end="\n")
+
+hello
+
+problems
+--------
+1. generate numbers from 1 to 50
+1.1 generate numbers from 100 to 50
+2. generate even numbers from 1 to 50
+3. generate odd numbers from 1 to 50 - use while loop
+
+4. print numbers between 1 to 5, seven times
+5. write a loop that generates numbers between 1 and 10, for every odd value print "Hello World"
+6. write a code to generate
+1
+23
+456
+78910
+
+7. write a code to generate
+1
+12
+123
+1234
+12345
+
+8. write a code to generate
+    1
+   1 2
+  1 2 3
+ 1 2 3 4
+1 2 3 4 5
+
+9. generate
+
+1 2 3 4 5
+ 1 2 3 4
+  1 2 3
+   1 2
+    1
+   2 1
+  3 2 1
+ 4 3 2 1
+5 4 3 2 1
+
+10. write a code to generate pascals triangle
+            1
+           1 1
+          1 2 1
+         1 3 3 1
+        1 4 6 4 1
+
+11. write a code to generate prime numbers between 150 and 50
+
+
+i = 4 
+j = 1, 2, 3, 4
+
+i % j == 0, 
+
+Not a prime number
+4 / j = 1 =>0
+4 / j = 2 =>0
+4 / j = 3 =>1
+4 / j = 4 =>0 
+
+Prime Number(7)
+7 / j = 1 =>0   cntr = 1
+7 / j = 2 =>1
+7 / j = 3 =>1
+7 / j = 4 =>3
+7 / j = 5 =>2
+7 / j = 6 =>1
+7 / j = 7 =>0   cntr = 2
+
+Prime Number(7)
+7 / j = 2 =>1
+7 / j = 3 =>1
+7 / j = 4 =>3
+7 / j = 5 =>2
+7 / j = 6 =>1
+
+Strings 
+-------
+
+STRINGS ARE IMMUTABLE
+---------------------
+
+anything enclosed in " " or ' ' is a string (single line)
+
+a = "hello world"
+b = 'hello world'
+
+a = "hello world \n"
+b = 'hello world \n'
+
+print("we can't go till end of the problem")
+
+print(f'ord("a") :{ord("a")}')
+
+multi line strings are enclosed in 
+"""
+the quick brown fox jumps over the lazy dog
+the quick brown fox jumps over the lazy dog
+the quick brown fox jumps over the lazy dog
+the quick brown fox jumps over the lazy dog
+the quick brown fox jumps over the lazy dog
+"""
+
+'''
+the quick brown fox jumps over the lazy dog
+the quick brown fox jumps over the lazy dog
+the quick brown fox jumps over the lazy dog
+the quick brown fox jumps over the lazy dog
+the quick brown fox jumps over the lazy dog
+'''
+
+st = "hello world"
+st is an object of class string
+
+
+
+
