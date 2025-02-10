@@ -1,0 +1,59 @@
+String Manipulations
+--------------------
+
+
+Functions
+---------
+to execute any repetitive task we use functions
+
+
+def - definition
+
+def fun():
+   print("Hello World")
+
+
+Passing arguments to the function
+---------------------------------
+def fun(a, b, c, d):
+   pass
+
+1. arguments         - 10, 'xyz', 4, 'ijk'
+2. keyword aruments  - d = 'hello', b = 'world', a = 100, b = 500
+
+
+
+
+
+
+
+
+
+Assignment
+==========
+1. st = "the quick brown fox jumps over the lazy dog"
+
+write a code to check how many times each letter in the string is repeated
+
+
+---------------------------------------------------------------------
+use formatting and print the below given table
+
+==================================================
+Item                                         Price
+==================================================
+Apples                                        0.40
+Pears                                         0.50
+Cantaloupes                                   1.92
+Dried Apricots (16 oz.)                       8.00
+Prunes (4 lbs.)                              12.00
+==================================================
+
+find the results of the problems using recursive calls
+
+3. find the factorial of a number
+
+4. find the Fibonacci series of a number 
+
+
+
