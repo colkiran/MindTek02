@@ -1,0 +1,70 @@
+Factorial of a number using recursive call. (Prob03.py)
+
+https://pythontutor.com/visualize.html#
+
+
+In python we can return more than one value
+
+Functions - pass by value and pass by reference
+
+def fun(x):
+   x = 50
+
+y = 10
+fun(y)  - pass by value - we will pass only the value of y
+        - pass by reference -  we will pass the address of y along with value
+
+print(y)  - if y gets updated then it is pass by reference else it is pass by value
+
+Data types
+----------
+1. mutable - it can be changed at any time
+2. immutable - once created we cannot change its value
+
+
+mutable   - pass by reference - list, dictionary, set
+immutable - pass by value - numbers, strings and tuple
+
+
+price = 50
+
+def GST(prc):
+   gst = prc * 0.018
+   prc = prc + gst
+
+
+GST(price)
+print(price)
+
+Lambdas
+-------
+lambdas as anonymous functions with a single expression
+
+result_of_the_exp = lambda x, y, z.. : expression_with_variables
+
+
+assignment
+----------
+1. convert these expenses from rupees to dollars
+exp = [5000, 8500, 6000, 30000, 15000, 84500, 65000, 98000, 150000]
+
+
+Scope of a variable
+-------------------
+1. global	
+2. local
+3. non local
+
+
+Functions
+---------
+1. closures
+2. HOF
+3. Decorator (function)
+
+
+
+
+
+
+
