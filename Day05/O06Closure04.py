@@ -26,7 +26,7 @@ def log_details(fnc):
 
     def innerFun(*args):
         print(loginfo)
-        print(fnc(*args))
+        print(fnc(*args))               # call back
         print("-" * 60)
 
     return innerFun
