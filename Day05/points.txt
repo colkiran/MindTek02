@@ -1,0 +1,27 @@
+Nested Functions
+----------------
+
+https://pythontutor.com/render.html#mode=display
+
+HOF- Higher Order Function - First Class Function
+-------------------------------------------------
+Any function that takes another function as argument or returns a function as return value.
+
+
+write a decorator to calculate the time taken by a function to execute
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
