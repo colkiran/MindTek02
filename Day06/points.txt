@@ -1,0 +1,94 @@
+Data Structures
+---------------
+1. lists
+2. dictionary
+3. tuple
+4. set
+
+
+Lists
+-----
+lists are similar to arrays
+
+what is an array?
+
+1. collection of homogenous data
+2. memory allocation is contagious
+
+
+Lists
+-----
+1. lists are collection of heterogenous data
+
+2. memory allocation is not contagious
+
+3. its an ordered collection of data
+
+4. it is mutable
+
+5. it is sub scriptable
+
+6. it is enclosed in [ ]
+
+functions used to manipulate a list
+-------------------------------------
+'append', 'clear', 'copy', 'count', 'extend', 'index', 'insert', 'pop', 'remove', 'reverse', 'sort'
+
+add new values
+--------------
+append, extend, insert
+
+
+remove values from a list
+--------------------------
+pop, remove, clear
+
+
+remaining functions
+-------------------
+count
+index
+copy
+sort
+reverse
+
+
+Dictionaries
+------------
+dictionaries are also called as associative arrays
+
+index =  0    1    2    3    4    5
+arr   = 'a', 'b', 'c', 'd', 'e', 'f'
+
+
+associative array = {0: 'a', 1: 'b', 2: 'c', 3: 'd', 4: 'e', 5: 'f'}
+
+0    1    2    3    4    5  - keys
+'a', 'b', 'c', 'd', 'e', 'f' - values
+
+emp = {'name': 'jack', 'age': 28, 'dept': 'mkt', 'loc': 'bangalore'}
+
+keys = name, age, dept, loc
+values = jack, 28, mkt, bangalore
+
+
+dictionary
+----------
+1. keys are unique
+2. keys are user defined
+3. unordered collection
+4. mutable
+5. are enclosed in { }
+
+dictionary manipulation functions
+'clear', 'copy', 'fromkeys', 'get', 'items', 'keys', 'pop', 'popitem', 'setdefault', 'update', 'values'
+
+
+
+
+
+
+
+
+ 
+
