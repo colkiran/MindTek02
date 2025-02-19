@@ -1,0 +1,24 @@
+Tuples
+-------
+Immutable
+
+a immutable list
+----------------
+it is enclosed in ( )
+
+
+Set
+---
+1. its a collection of unique data
+2. sets not sub scriptable
+3. its an unordered collection
+4. sets are mutable
+5. sets are enclosed in {1, 2, 3, 4}
+
+comprehension - iterating through a collection using lambda syntax
+
+List Comprehension
+------------------
+
+
+
