@@ -1,0 +1,101 @@
+Iterators 
+Generators
+Coroutines
+
+
+Iterators
+---------
+python iterator is an object that allows us to traverse through a collection of data (like tuple, list or dictionary) one element at a time.
+
+Iterator Protocol
+-----------------
+to be an iterator an object must implement the 'iterator protocol' which includes methods like __iter__() and __next__() - returns the next element in the sequence
+
+
+OOPS
+----
+why do we need oops?
+
+advantages
+----------
+1. code reusability
+2. abstraction 
+
+a. inheritance  - code reuse
+b. polymorphism - function behaviour change dynamically
+c. abstraction - 
+d. encapsulation
+
+
+software - bank
+---------------
+withdraw money from the bank
+----------------------------
+1998 
+----
+withdraw
+1. cheque
+2. DD
+
+2002 - 2003
+-----------
+DebitCard(withdraw)
+
+
+2008
+----
+OnlineTransaction(DebitCard)
+
+
+2011
+----
+upi(onlineTrans)
+
+def dd():
+  pass
+
+upiObj.DD()
+
+
+Polymorphism
+------------
+function changes its behaviour depending on the object passed to it
+
+ATM (function)
+--------------
+Debit Card - object
+
+
+Debit Cards
+-----------
+1. Normal Debit Card (limit - 40k)
+2. Gold Debit Card (limit 1 lakh)
+3. Platinum Debit Card (limit 2.5 lakhs)
+
+
+Abstraction
+-----------
+ATM - Software - authentication
+
+
+Encapsulation
+-------------
+
+
+Class Attribute or a Class Variable
+------------------------------------
+class variable are static in nature, their values are the same across objects.
+
+class variables are accessible only with class names
+
+They are declared inside a class and outside the methods
+
+
+
+
+
+
+
+
+
+
