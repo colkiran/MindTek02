@@ -1,0 +1,10 @@
+OOPS
+----
+
+class Method
+------------
+
+create a class method to set the 'team_head_name' and another class method to print the team_head_name
+
+
+write a code to overload all arithmetic operators - +, -, * , /, //,
