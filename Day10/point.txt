@@ -1,0 +1,83 @@
+Abstract Class
+--------------
+what is the use of abstract class?
+
+
+class Calculator(ABC):
+
+   @abstractmethod
+   def powerOn(self):
+      pass   
+
+   def add(self):
+      pass
+
+
+   def sub(self):
+      pass
+
+
+
+class MyCalc(Calculator):
+
+    def powerOn(self):
+	print("Turn on the power before using the calculator"
+
+    def fun():
+        pass
+
+m1 = MyCalc()		# mandatory to override the powerOn method
+
+
+Duck Types
+----------
+identify a duck - any bird that quacks is considered as a duck
+
+
+any method that has a particular name we assume it to do a specific job
+
+eg:  connect()  - connects to a database
+     
+
+Assignment
+-----------
+# assignment create a customer dictionary
+'''
+dict1["sachin"]=50
+dict1["saurav"]=25
+dict1["sachin"]=75
+dict1["saurav"]=50
+
+print(dict1) # {sachin:125,saurav:75}
+
+'''
+
+
+File Handling
+-------------
+we use text files because data in a text file is stored in ascii format 
+to read and write ascii data we don't need any drivers
+
+line in file handling - it reads the data until it encounters return key or enter key
+
+FILEHANDLE = open("path + filename", "mode")
+
+mode = r  - read
+       w  - write
+       a  - append
+
+read mode -  if the file exists then we can only read the contents of the file from top to bottom. read is the default mode (if we don't mention any mode then it opens the file in read mode). if the does not exist then raises except FILENOTFOUNDERROR
+
+
+write mode = if the file exists then deletes the contents of the file and writes newly into the file. if the does not exist then creates a new file and write into the file
+
+append mode - if the file exists then it will append data to the file without disturbing the previous content.  if the does not exist then creates a new file and write into the file
+
+
+
+
+
+
+
+
+
