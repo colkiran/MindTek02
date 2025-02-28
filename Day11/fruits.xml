@@ -1,0 +1,17 @@
+<data>
+    <item>
+        <name>Apple</name>
+        <count>150</count>
+        <price>5000</price>
+    </item>
+    <item>
+        <name>Banana</name>
+        <count>200</count>
+        <price>2350</price>
+    </item>
+    <item>
+        <name>Orange</name>
+        <count>350</count>
+        <price>3500</price>
+    </item>
+</data>

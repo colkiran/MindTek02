@@ -1,0 +1,100 @@
+Open the file and perform actions dynamically
+
+to move the file handle we use seek
+
+POSITION = SEEK(OFFSET, WHENCE)
+
+OFFSET  - number of bytes that we want to skip
+
+WHENCE - 0   - count starts from BOF
+         1   - count starts from the CP
+         2   - count starts from the EOF
+
+
+seek(50, 0)	- 50 bytes is calculated from BOF
+
+seek(75, 1)	- 75 bytes from the current position (125th byte)
+
+
+1. FL.seek(85, 0)
+
+2. FL.seek(75, 1)
+
+3. FL.seek(-50, 1)
+
+4. FL.seek(100, 2)
+
+5. FL.seek(-300, 2)
+
+6. FL.seek(-50, 0)
+
+
+1. CSV file
+
+['empid', 'empname', 'age', 'dept', 'salary']
+['501', 'Jack', '28', 'HR', '65000']
+['235', 'Jill', '34', 'FIN', '35000']
+['150', 'John', '26', 'AC', '25000']
+['325', 'Jai', '21', 'DEV', '55000']
+['450', 'Guru', '38', 'DEV', '85000']
+['182', 'Sita', '32', 'PRC', '75000']
+['297', 'Gita', '36', 'SUP', '60000']
+
+
+
+
+
+2. JSON file
+
+its a text file that stores structed data in the format called Java Script Object Notation(JSON). JSON is a popular format for exchanging data between systems especially for web applications
+
+a. JSON files are used to data between servers to web pages and vice versa
+b. JSON files are used to exchange data between different programming languages and platforms
+3. JSON files are used to simplify the exchange the data between programming languages and platforms
+4. JSON files can represent the same data in a smaller file size for faster data transfer
+
+
+3. XML - Extensible Markup Language
+
+DOM  - currently using this to read xml file
+
+
+4. Excel
+
+Python  - communicate with excel - we need a driver - openpyxl
+
+Excel file - Workbook
+
+excel pages - Worksheet
+
+each sheet has a grid
+
+the grid has rows and columns
+
+row are numbered and horizontally placed
+row number are sequential - 1, 2, 3, 4, .... 1048576
+
+columns are labeled or named with alphabets
+column names are like - A, B, C,....Z, AA, AB, AC, AD.......XFD(16384)
+
+intersection of rows and columns are called as cells
+each cell has an address (combination of colname and rowno)
+
+A1, A35, B105, C1, D5
+
+
+
+6. Database
+
+
+
+
+
+
+
+
+
+
+
+
+
