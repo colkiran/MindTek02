@@ -1,0 +1,5 @@
+insert into players values (116, 'Sachin Tendulkar',  'Cricket', '100 centuries')
+insert into players values (223, 'Lionel Messi',  'Foot Ball', '8 Ballandors')
+insert into players values (303, 'Mike Tyson',  'Boxing', '42 Knockouts')
+insert into players values (484, 'Roger Fedrer',  'Badmiton', '20 Grand Slams')
+insert into players values (501, 'PV Sindhu',  'Badmiton', 'Olympic Bronze')

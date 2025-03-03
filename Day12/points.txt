@@ -1,0 +1,102 @@
+Python => 	pymysql 	=>  MySQL
+
+
+Python =>      cx-Oracle	=>  oracle
+
+
+Regular Expressions
+-------------------
+
+*  - series of characters - dir *.py  - * represents all the filenames
+
+?  - single character - dir ?a*.py - second character should be 'a' and first character can be anything
+
+
+my mobile number is 379238402
+
+we need to extract the number from the above string
+
+Basic Regular Expressions
+-------------------------
+.	dot	- single character
+
+
+^		- beginning of the string
+
+$		- end of the string
+
+
+*		- zero or more occurrences
+
+?		- zero or one occurrence
+
++		- one or more occurrence
+
+{n}		- exactly n times
+
+{n,}		- min n times max any times
+
+{n, m}		- min n times and max n times
+
+()		- grouping
+
+[]		- character class
+
+|		- alternation (or)
+
+\		- supress the regex
+
+import a module - re
+
+a. search
+b. match
+c. compile
+d. findall
+e. finditer
+
+
+validate this license number
+
+lno = 'LCNO-KAR-05-2013-0034
+
+LCNO - Constant
+
+KAR - KAR, APN, TLN, TND, KER, MAH
+
+05 - RTO - (01 - 73) no 00
+
+2013 - 2000+
+
+0034 - 0001 - 9999 (no 0000)
+
+
+res = re.search(r'LCNO-(KAR|KER|APN)-', st)
+
+
+\w		- word (alpha numeric)
+
+\W		- non word (special characters0
+
+\d		- digit (only numbers)
+
+\D		- non digit (non numeric)
+
+\s		- space (only spaces)
+
+\S		- non space
+
+\b		- word boundary
+
+\B		- non word boundary
+
+\A		- beginning of the string
+
+\Z		- End of the string
+
+
+
+
+
+
+
+
