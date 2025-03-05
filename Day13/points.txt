@@ -1,0 +1,43 @@
+Backtracking
+------------
+re-using the regular expression
+
+
+st = 'the quick brown fox jumps over the lazy dog.'
+
+if regex matches 'fox'
+
+then there will be three parts in the string
+
+1. string that got rejected 	 - 'the quick brown '
+2. string that matched the regex - 'fox'
+3. string that was not checked 	 - ' jumps over the lazy dog.'
+
+
+Exceptions
+----------
+try:
+
+error prone code
+
+except error code class:
+
+else: if no exception
+
+finally: will execute either there is an error or not
+
+
+Exception
+   ValueError(Except)
+   ZeroDivisionError(Except)
+
+
+Packages and Modules
+---------------------
+
+
+
+
+
+
+
