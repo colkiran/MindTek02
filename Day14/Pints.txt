@@ -1,0 +1,62 @@
+Packages and Modules
+---------------------
+Modules
+-------
+what are modules?
+
+1. module as same as libraries 
+
+2. any python file can be considered as a module
+
+3. modules will have the same extension as a python file (.py)
+
+4. we use modules in our code by importing a module
+
+import sys
+
+modules can have 
+----------------
+
+a. variables
+
+b. lists, dictionary, tuples, sets
+
+c. functions
+
+d. classes
+
+
+Package
+-------
+what is a package?
+
+package is a folder or directory
+
+package will have modules stored inside
+
+packages are compared with classes
+
+whenever we call a class - the constructor will get executed (__init__() method)
+
+whenever we use a package = __init__.py file will get executed
+
+
+when we try to import a module 
+
+1. .py will get converted into .pyc file (compiled copy) and will be stored in __pycache__ folder
+
+2. python will read the .pth file from python native path and import the path into its library path so the modules in that location gets executed
+
+3. python will compare the date and time of creation of .py and .pyc file. python will expect the .pyc file to have latest date and time compared to .py file
+
+
+
+
+
+
+
+
+
+
+
+
